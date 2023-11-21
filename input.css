@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+    .container {
+        @apply max-w-[1374px]
+    }
+    .title-text {
+        @apply text-xl font-bold text-red-600; /* 20 px*/
+    }
+    
+    .btn {
+         @apply text-xs uppercase text-white bg-[#D37657]  px-[50px] py-[20px]; 
+         
+    }
+    .btn:hover {
+        background-color: #a15e47; /* Новый цвет фона для ховера */
+        transition-duration: 0.3s; /* Устанавливаем продолжительность анимации для ховера в 0.5 секунды */
+    }
+    /* Определяем классы для размера текста и цвета текста */
+    .text-25px {
+        font-size: 25px;
+    }
+
+    .text-35px {
+        font-size: 35px;
+    }
+
+    .text-[#35312E] {
+        color: #35312E;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+    .title-h3 {
+        @apply text-25px smll:text-[35px] text-[#35312E] text-center leading-relaxed;
+    }
+    .anim {
+        transition: background-color 0.3s ease 0s;
+    }
+    
+  
+}
+
+

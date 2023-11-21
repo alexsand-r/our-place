@@ -1,0 +1,85 @@
+/* обнуления для сафари */
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+/* пропустил  в sass*/
+a:focus,
+a:active {
+    outline: none;
+
+}
+
+/* бургер меню */
+.burger {
+    height: 20px;
+    position: relative;
+    width: 30px;
+    top: 0px;
+    right: 5px;
+}
+
+.burger-line {
+    display: flex;
+    width: 30px;
+    height: 2px;
+    background: #000;
+    transition: .3s all ease;
+}
+
+.top-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mid-line {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+
+}
+
+.bottom-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.burger.active>.top-line {
+    transform: translateY(8px) rotate(45deg);
+    transition: .3s all ease;
+}
+
+.burger.active>.mid-line {
+    opacity: 0;
+    transition: .3s all ease;
+}
+
+.burger.active>.bottom-line {
+    transform: translateY(-10px) rotate(-45deg);
+    transition: .3s all ease;
+
+
+}
+
+.plus {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: left 0.3s ease 0s;
+}
+.close {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: left 0.3s ease 0s;
+}
+
+
