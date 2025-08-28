@@ -1,5 +1,5 @@
 ## 👩‍⚖️ Особова картка працівника Типова форма N П-2 (версія для ПК без адаптиву !!!) 
-### [🔗 Онлайн-демо](https://alexsand-r.github.io/form-p2/)
+### [🔗 Онлайн-демо]((https://alexsand-r.github.io/our-place/))
 <p align="center">
   <img src="img/Our place.png" alt="Image 1" width="800" height="400">
 </p>
